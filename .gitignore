@@ -1,0 +1,45 @@
+# Node.js dependencies
+node_modules/
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Build output
+build/
+dist/
+.next/
+coverage/
+
+# React Native / Android
+android/app/build/
+android/.gradle/
+android/local.properties
+
+# iOS
+ios/build/
+Pods/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
